@@ -23,6 +23,7 @@ public class Rotate : MonoBehaviour {
 	void Update () {
 		transform.Rotate (new Vector3 (rotX, rotY, rotZ) * Time.deltaTime * speed);
 	}
+
 }
 
 
@@ -60,4 +61,10 @@ using System.Collections;
 			gameObject.transform.Translate (0, verticalSpeed, 0);
 		}
 	}
+	/*Example: if InputGetKey (KeyCode.Delete)) {
+	 * gameObject.transform.Translate (vertical speed, 0 , 0);
+	 * }
+	 * Basically I am telling the computer that if the 'delete' button is pushed down then the vertical motion of the game object will move at the desired speed which I assign it.
+	 */
+
 }
