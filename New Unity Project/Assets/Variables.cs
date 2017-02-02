@@ -25,10 +25,7 @@ public class Rotate : MonoBehaviour {
 	}
 
 }
-
-
-
-
+	
 (Variable Move)
 
 
