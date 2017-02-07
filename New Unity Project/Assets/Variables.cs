@@ -1,5 +1,5 @@
-﻿Variables
-(Rotate Variables)
+﻿
+
 
 using UnityEngine;
 using System.Collections;
@@ -8,7 +8,7 @@ using System.Collections;
 // a float is decimal numbers
 // public means that anyone will be able to see and access this version of your coding process
 // private means that only you will be able to see the changes and true meanings of your code
-public class Rotate : MonoBehaviour {
+public class rotate : MonoBehaviour {
 	public float speed;
 	public float rotX = 15;
 	public float rotY = 30;
@@ -26,19 +26,18 @@ public class Rotate : MonoBehaviour {
 
 }
 	
-(Variable Move)
+//Variable Move//
 
 
 
-using UnityEngine;
-using System.Collections;
+
 
 //when you made the float for horizontal speed, you assigned a specific speed to the horizontal movements of your object in Unity
 /* so when you inputted the horizontal and vertical speed within the () of the code, the program automatically understood that horizontal speed = .2f and the same goes along with the vertical speed in the other () of code */
 
-/every time you are finished with a bracket of code you place these {} around the code.
-/gameObject means that you are editing or making a code for that object within your game, it is just a name so you can keep track of you coding
-	public class Move : MonoBehaviour {
+//every time you are finished with a bracket of code you place these {} around the code.
+//gameObject means that you are editing or making a code for that object within your game, it is just a name so you can keep track of you coding
+	public class move : MonoBehaviour {
 	public float horizontalSpeed = .2f;
 	public float verticalSpeed = .2f;
 
