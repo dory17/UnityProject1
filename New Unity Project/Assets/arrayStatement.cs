@@ -16,14 +16,14 @@ public class arrayStatement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		//This is my example of the string statements; I'm so excited I got it to work!
 		counter++;
 			
 
 		
 		{
 			
-			print (Firstnames[Random.Range (0 , Firstnames.Length)] + ", " + " was the master of a great castle, and he owned a magical house elf named Creature that obeyed everything he said. " +
+			print (Firstnames[	Random.Range (0 , Firstnames.Length)] + ", " + " was the master of a great castle, and he owned a magical house elf named Creature that obeyed everything he said. " +
 				"  " + " Creature was so underappreciated in his work that he brought a" + " " + animals [Random.Range (0 ,animals.Length)] +
 				" into his masters room in the middle of the night to eat him." + "  " + " Luckily the master of the house was a " + jobs [Random.Range (0 , jobs.Length)] +
 				" and he quickly woke up before the animal could eat him and began to " + react [Random.Range (0 , react.Length)] + " . " + " Creature watched as" +
