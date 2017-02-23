@@ -30,7 +30,7 @@ public class arrayStatement : MonoBehaviour {
 				" his animal friend fell to the ground and said " + phrase [Random.Range (2 , phrase.Length)] + ", " +
 				" as it fled from the room quicker than a jackrabbit during hunting season." + "Creature said a crazy phrase in"
 				+ nationality [Random.Range (0, nationality.Length)] + "and angrily stomped around the room as he was confronted by his master." + "  " + " 'Why did you try to have that animal eat me?!' exclaimed Creatures master."
-				+ " Creature exclaimed huffily, today was my" + age [4] + "th" + " birthday and you promised to give me a sock!"
+				+ " Creature exclaimed huffily, today was my " + age [Random.Range (0 , age.Length)] + "th" + " birthday and you promised to give me a sock!"
 				+ " ' Well ' , exclaimed the master, ' if I gave you a sock then you'd be free, and I can't free you just yet. ' " + "  "
 				+ " Creature exclaimed, ' WHY NOT?! ' " + " His master replied, ' because " + character2 [Random.Range (0, character2.Length)] + " , your friend , asked if he could give you a sock in my place to help you celebrate."
 				+ " Creature was suddenly humbled as his master had not forgotten his birthday/freedom afterall. " + " ' But after your "
