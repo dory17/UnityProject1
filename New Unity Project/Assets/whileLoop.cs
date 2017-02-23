@@ -13,10 +13,51 @@ public class whileLoop : MonoBehaviour {
 	private int MinimValue = 0;
 	public int targetValue = 25;
 
+	public int minRange = 0;
+	public int maxRange = 100;
+	public int targetVAl = 42;
 
 // use this for initialization
 
 	void Start()
+
+	//CLASS EXAMPLE #2
+
+	{
+		int counting = 0;
+
+		while (true) {
+
+			int guess = Random.Range (minRange, maxRange);
+			counting++;
+
+
+			if (guess == targetVAl) {
+				print ("Attempt" + counting + ": You guessed the correct number, " + targetVAl + ". ");
+				break;
+			} else if (guess < targetVAl) {
+				print ("Attempt" + counting + ": " + guess + " is too low. ");
+				minRange = guess;
+			} else {
+				print ("Attempt" + counting + ": " + guess + " is too high. ");
+				maxRange = guess;
+
+			}
+		
+		}
+			print ("You win!");
+		
+		
+		
+	}
+
+
+
+
+
+	//MY EXAMPLE
+
+	/*
 	{
 		int guess = 0;
 		while (counter < 30) {
@@ -32,10 +73,8 @@ public class whileLoop : MonoBehaviour {
 				break;
 			}
 		}
-
-
 	}
-		
+		*/
 		
 				
 			
