@@ -35,16 +35,17 @@ public class Lists : MonoBehaviour {
 
 	public void ClearList ()
 	{
-		if (zooRoster.Contains (animal))
+		
 			zooRoster.Clear ();
 		
 		}
 
 	public void PrintAllAnimals()
-		{
-			
-		System.Console.WriteLine(animal);
+	{
+		int i= 0;		
+		while (i < zooRoster.Count) {
+			print (zooRoster [i++]);
+
 		}
-		
-		
+	}
 }
