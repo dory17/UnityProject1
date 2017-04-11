@@ -12,7 +12,7 @@ public class CalculatorAssigment : MonoBehaviour {
 	public List<string> NumberCount = new List<string>();
 	public string number;
 	private float num1 = 1;
-	private float num2 = 101;
+	private float num2 = 100;
 	public float fallSpeed = 8.0f;
 	public int myInt = 1;
 	public int myInt1 = 1;
@@ -22,50 +22,51 @@ public class CalculatorAssigment : MonoBehaviour {
 		{
 			
 	}
+		Random.Range (num1, num2);
 }
 	public void AdditionButton () {
 		
 		{
 			float addition = num1 + num2;
-			print ("The answer is " + num1 + num2);
-		}
+			print ("The answer is " + addition );
 	}
+}
 	public void SubtractionButton () {
-			
+		{
 			float subtract = num1 - num2;
-			print ("The answer is" + num1 - num2);
-			
+			print ("The answer is" + subtract);
+	}
 }
 
 	public void MultiplicationButton () {
-			
-		float multiplication = num1 * num2;
-			print ("The answer is " + num1 * num2);
+		{	
+			float multiplication = num1 * num2;
+			print ("The answer is " + multiplication);
+	}
 }
 
 	public void DivisionButton () {
-		float divide = num1 / num2;
-			print ("The answer is " + num1 / num2);
+		{
+			float divide = num1 / num2;
+			print ("The answer is " + divide);
+		}
+	}
+
+	public void sum1(){
+		Random.Range (1, 100);
+	}
+
+	public void sum2 () {
+		Random.Range (1, 100);
+	}
 }
 
-	public void Num1 () {
-		{
-			print (Random.Number);
-		}
-	}
-
-	public void Num2 () {
-		{
-			print(Random.Number);
-		}
-	}
-
-	
+	/*
 		public void FallingButton(){
 			transform.Translate(Vector3.down * fallSpeed * Time.deltaTime, Space.World);
 		}
 }
-/*May need this later
+May need this later
 
 {
 	if (Input.GetKeyDown (KeyCode.A))
@@ -73,5 +74,4 @@ public class CalculatorAssigment : MonoBehaviour {
 numCounter++;
 			firstNumber [Random.Range (0, firstNumber.Length)]; 
 
-}
-*/
+}*/
