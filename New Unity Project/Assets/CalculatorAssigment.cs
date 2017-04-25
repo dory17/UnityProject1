@@ -57,7 +57,7 @@ public class CalculatorAssigment : MonoBehaviour {
 		}
 	}
 
-	/*
+
 	public void sum1(){
 		print (Random.Range (1f , 100f));
 	}
@@ -65,7 +65,13 @@ public class CalculatorAssigment : MonoBehaviour {
 	public void sum2 () {
 		print (Random.Range (1f, 100f));
 		}
+		
+	void onTriggerEnter(Collider other)
+	{
+		Destroy (other.gameObject);
+	}
 	
+	/*
 	public void Stupidnumber1 (){
 		Random.Range (1, 100);
 	}
