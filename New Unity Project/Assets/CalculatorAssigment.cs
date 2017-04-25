@@ -28,8 +28,8 @@ public class CalculatorAssigment : MonoBehaviour {
 		{
 			 float answer = num1 + num2; 
 
-			 float num1 = numberOne.text = Random;
-			 float num2 = numberTwo.text = Random;
+			 num1 = numberOne.text = Random;
+			 num2 = numberTwo.text = Random;
 		}
 	{
 			print (num [Random.Range (0 , num.Length)]);
