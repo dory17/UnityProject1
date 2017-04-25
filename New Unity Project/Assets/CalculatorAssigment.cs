@@ -4,72 +4,82 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 
 public class CalculatorAssigment : MonoBehaviour {
-	private int counter = 0;
-	public int firstNumber = 1;
-	public int secondNumber = 100;
+	//private int counter = 0;
+	//public int firstNumber = 1;
+	//public int secondNumber = 100;
 	public int TotalAnswer;
-	private int numCounter = 0;
-	public string number;
+	//private int numCounter = 0;
+	//public string number;
 	private float num1 = 1;
 	private float num2 = 100;
-	public float fallSpeed = 8.0f;
+	//public float fallSpeed = 8.0f;
 	public int myInt = 1;
 	public int myInt1 = 1;
-	public int i = 0;
-	private int [] num = { 1, 2, 3, 4 ,5 ,6 ,7 ,8 ,9 ,10 , 11, 12, 13 , 14, 15, 16 ,17 ,18, 19, 20};
+	//public int i = 0;
+	private int [] num = {0 , 1 , 2 ,3 ,4 ,5 , 6 , 7 , 8, 9, 10 , 11, 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20};
 	private int MyCounter =0;
+	public InputField numberOne;
+	public InputField numberTwo;
 	// Use this for initialization
 
 	public void Start () {
 		//waiting to put something in here
 		MyCounter++;
+		{
+			 float answer = num1 + num2; 
 
+			 float num1 = numberOne.text = Random;
+			 float num2 = numberTwo.text = Random;
+		}
 	{
-			print (num [Random.Range (0 , num .Length)]);
+			print (num [Random.Range (0 , num.Length)]);
 	}
 }
 
 	public void AdditionButton () {
 		
 		{
-			float addition = num1 + num2;
+			float addition = num1  + num2 ;
 			print ("The answer is " + addition );
 		}
 }
 	public void SubtractionButton () {
 		{
-			float subtract = num1 - num2;
+			float subtract = num1  - num2 ;
 			print ("The answer is" + subtract);
 	}
 }
 
 	public void MultiplicationButton () {
 		{	
-			float multiplication = num1 * num2;
+			float multiplication = num1  * num2  ;
 			print ("The answer is " + multiplication);
 	}
 }
 
 	public void DivisionButton () {
 		{
-			float divide = num1 / num2;
+			float divide = num1  / num2 ;
 			print ("The answer is " + divide);
 		}
 	}
 
-
+	/*
 	public void sum1(){
-		print (Random.Range (1f , 100f));
+		sum1 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
 	}
 
 	public void sum2 () {
-		print (Random.Range (1f, 100f));
+		sum2 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
 		}
 		
-	void onTriggerEnter(Collider other)
-	{
-		Destroy (other.gameObject);
-	}
+*/
+
+
+	//void onTriggerEnter(Collider other)
+	//{
+	//	Destroy (other.gameObject);
+	//}
 	
 	/*
 	public void Stupidnumber1 (){
