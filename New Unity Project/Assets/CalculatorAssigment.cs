@@ -10,8 +10,8 @@ public class CalculatorAssigment : MonoBehaviour {
 	public int TotalAnswer;
 	//private int numCounter = 0;
 	//public string number;
-	private float num1 = 1;
-	private float num2 = 100;
+	public float  num1 = 0;
+	public float  num2 = 100;
 	//public float fallSpeed = 8.0f;
 	public int myInt = 1;
 	public int myInt1 = 1;
@@ -20,18 +20,15 @@ public class CalculatorAssigment : MonoBehaviour {
 	private int MyCounter =0;
 	public InputField numberOne;
 	public InputField numberTwo;
+
 	// Use this for initialization
 
 	public void Start () {
 		//waiting to put something in here
 		MyCounter++;
 		{
-			 float answer = num1 + num2; 
-
-			 num1 = numberOne.text = Random;
-			 num2 = numberTwo.text = Random;
-		}
-	{
+			Random (num1 )
+			//numberOne.text = "The answer is" + subtract;
 			print (num [Random.Range (0 , num.Length)]);
 	}
 }
@@ -39,27 +36,27 @@ public class CalculatorAssigment : MonoBehaviour {
 	public void AdditionButton () {
 		
 		{
-			float addition = num1  + num2 ;
+			float addition = float.Parse (numberOne.text) + float.Parse (numberTwo.text);
 			print ("The answer is " + addition );
 		}
 }
 	public void SubtractionButton () {
 		{
-			float subtract = num1  - num2 ;
+			float subtract = float.Parse (numberOne.text) - float.Parse (numberTwo.text);
 			print ("The answer is" + subtract);
 	}
 }
 
 	public void MultiplicationButton () {
 		{	
-			float multiplication = num1  * num2  ;
+			float multiplication = float.Parse (numberOne.text) * float.Parse (numberTwo.text);
 			print ("The answer is " + multiplication);
 	}
 }
 
 	public void DivisionButton () {
 		{
-			float divide = num1  / num2 ;
+			float divide = float.Parse (numberOne.text) / float.Parse (numberTwo.text);
 			print ("The answer is " + divide);
 		}
 	}
