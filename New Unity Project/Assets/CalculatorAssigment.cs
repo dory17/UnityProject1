@@ -15,7 +15,7 @@ public class CalculatorAssigment : MonoBehaviour {
 	//public float fallSpeed = 8.0f;
 	public int myInt = 1;
 	public int myInt1 = 1;
-	//public int i = 0;
+	public InputField  i;
 	private int [] num = {0 , 1 , 2 ,3 ,4 ,5 , 6 , 7 , 8, 9, 10 , 11, 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20};
 	private int MyCounter =0;
 	public InputField numberOne;
@@ -62,9 +62,12 @@ public class CalculatorAssigment : MonoBehaviour {
 	}
 	public void randomNumberGenerator () {
 		MyCounter++;
-		print (num [	Random.Range (0 , num .Length)] + " is your target # " );
-	}
 
+			float generator = float.Parse (i.text);
+
+	}
+	//MAY NEED THIS LATER FOR publi void randomNumberGenerator: print  (i  [Random.Range (0 , i .Length)] + " is your target # " );
+	//{
 	/*
 	public void sum1(){
 		sum1 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
