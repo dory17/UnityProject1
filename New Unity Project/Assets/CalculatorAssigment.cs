@@ -8,7 +8,7 @@ public class CalculatorAssigment : MonoBehaviour {
 	//public int firstNumber = 1;
 	//public int secondNumber = 100;
 	public int TotalAnswer;
-	//private int numCounter = 0;
+	private int numCounter = 0;
 	//public string number;
 	public float  num1 = 0;
 	public float  num2 = 100;
@@ -61,8 +61,10 @@ public class CalculatorAssigment : MonoBehaviour {
 		}
 	}
 	public void randomNumberGenerator () {
-		
+		MyCounter++;
+		print (num [	Random.Range (0 , num .Length)] + " is your target # " );
 	}
+
 	/*
 	public void sum1(){
 		sum1 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
