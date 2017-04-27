@@ -60,7 +60,9 @@ public class CalculatorAssigment : MonoBehaviour {
 			print ("The answer is " + divide);
 		}
 	}
-
+	public void randomNumberGenerator () {
+		
+	}
 	/*
 	public void sum1(){
 		sum1 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
@@ -112,3 +114,5 @@ private static readonly Random getrandom = new Random();
 }
 */
 }
+
+//DONT EVER PUT YOUR WORK DOWN; BE PROUD OF IT
