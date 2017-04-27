@@ -63,13 +63,14 @@ public class CalculatorAssigment : MonoBehaviour {
 	public void randomNumberGenerator () {
 		MyCounter++;
 		{
-			print (i [Random.Range (0, i.Length)] + " is your target # ");
+			print (num [Random.Range (0, num.Length)] + " is your target # ");
 		}
-			float generator = float.Parse (i.text);
-
+			
 	}
+	
 	//MAY NEED THIS LATER FOR publi void randomNumberGenerator: print  (i  [Random.Range (0 , i .Length)] + " is your target # " );
 	//{
+	//float generator = float.Parse (i.text);
 	/*
 	public void sum1(){
 		sum1 (Random.Range(-10.0f, 10.0f), 0, Random.Range(-10.0f, 10.0f));
