@@ -27,7 +27,7 @@ public class CalculatorAssigment : MonoBehaviour {
 		//waiting to put something in here
 		MyCounter++;
 		{
-			Random (num1 )
+			//Random (num1);
 			//numberOne.text = "The answer is" + subtract;
 			print (num [Random.Range (0 , num.Length)]);
 	}
