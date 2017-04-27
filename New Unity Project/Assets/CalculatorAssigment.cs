@@ -85,15 +85,7 @@ public class CalculatorAssigment : MonoBehaviour {
 	//	Destroy (other.gameObject);
 	//}
 	
-	/*
-	public void Stupidnumber1 (){
-		Random.Range (1, 100);
-	}
 
-	public void stupidNumber2 (){
-		Random.Range (1, 100);
-	}
-	*/
 /*
 	 SEVERAL IDEAS___ DONT KNOW IF THEY WILL WORK . . .
 
